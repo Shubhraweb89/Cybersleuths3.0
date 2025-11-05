@@ -48,7 +48,7 @@ export default function Home() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <a
-                href="https://forms.google.com"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdXgPgQGGAy36isoA4GkUeaNFhL-31N3YGevQplx2sv3Fp9VA/viewform?pli=1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="cyber-button flex items-center justify-center gap-2"
@@ -67,11 +67,11 @@ export default function Home() {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-4 md:gap-8 mt-16">
               <div className="cyber-card">
-                <div className="text-3xl font-bold neon-text">150+</div>
+                <div className="text-3xl font-bold neon-text">100+</div>
                 <div className="text-sm text-foreground/70">Active Members</div>
               </div>
               <div className="cyber-card">
-                <div className="text-3xl font-bold neon-text">25+</div>
+                <div className="text-3xl font-bold neon-text">5+</div>
                 <div className="text-sm text-foreground/70">Events Hosted</div>
               </div>
               <div className="cyber-card">
@@ -137,7 +137,7 @@ export default function Home() {
               <iframe
                 width="100%"
                 height="100%"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                src="https://www.youtube.com/embed/3MO2wfMUHZc"
                 title="CyberSleuths Introduction"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -153,7 +153,7 @@ export default function Home() {
       <section className="py-20 border-t border-blue-500/20">
         <div className="container">
           <div className="flex items-center justify-between mb-12">
-            <h2 className="text-4xl font-bold">Upcoming Events</h2>
+            <h2 className="text-4xl font-bold">Past Events</h2>
             <Link
               href="/events"
               className="inline-flex items-center gap-2 text-blue-300 hover:text-blue-200 transition-colors"
@@ -192,7 +192,7 @@ export default function Home() {
             Whether you're a beginner or an experienced hacker, there's a place for you in our community. Register now and start your cybersecurity journey!
           </p>
           <a
-            href="https://forms.google.com"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdXgPgQGGAy36isoA4GkUeaNFhL-31N3YGevQplx2sv3Fp9VA/viewform?pli=1"
             target="_blank"
             rel="noopener noreferrer"
             className="cyber-button inline-flex items-center gap-2"

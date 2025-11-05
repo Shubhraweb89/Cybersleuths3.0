@@ -8,17 +8,20 @@ interface TeamMember {
   github?: string;
   linkedin?: string;
   email?: string;
+  image?: string; // Add image property
 }
 
+// Add image URLs for each member (replace with your actual image paths)
 const coreTeam: TeamMember[] = [
   {
     id: 1,
-    name: "Alex Johnson",
+    name: "Rakesh Raushan",
     role: "Club President",
     bio: "Cybersecurity enthusiast with expertise in penetration testing",
     github: "https://github.com",
     linkedin: "https://linkedin.com",
-    email: "alex@college.edu",
+    email: "rakesh@college.edu",
+    image: "/images/Rakesh.jpg", // Example image path
   },
   {
     id: 2,
@@ -28,6 +31,7 @@ const coreTeam: TeamMember[] = [
     github: "https://github.com",
     linkedin: "https://linkedin.com",
     email: "sarah@college.edu",
+    image: "/images/sarah.jpg",
   },
   {
     id: 3,
@@ -49,11 +53,13 @@ const coreTeam: TeamMember[] = [
   },
 ];
 
+// Add images for active members as well
 const members: TeamMember[] = [
   {
     id: 5,
     name: "David Park",
     role: "Security Researcher",
+    image: "/images/david.jpg",
   },
   {
     id: 6,
@@ -115,10 +121,18 @@ export default function Teams() {
                 key={member.id}
                 className="cyber-card group text-center hover:shadow-lg hover:shadow-purple-500/30 transition-all"
               >
-                {/* Avatar */}
-                <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white font-bold text-2xl group-hover:shadow-lg group-hover:shadow-purple-500/50 transition-all">
-                  {member.name.split(" ").map((n) => n[0]).join("")}
-                </div>
+                {/* Avatar or Image */}
+                {member.image ? (
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="w-24 h-24 mx-auto mb-4 rounded-full object-cover border-4 border-blue-500/30 group-hover:shadow-lg group-hover:shadow-purple-500/50 transition-all"
+                  />
+                ) : (
+                  <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white font-bold text-2xl group-hover:shadow-lg group-hover:shadow-purple-500/50 transition-all">
+                    {member.name.split(" ").map((n) => n[0]).join("")}
+                  </div>
+                )}
 
                 {/* Name and Role */}
                 <h3 className="text-xl font-bold mb-2 group-hover:text-blue-300 transition-colors">
@@ -178,10 +192,18 @@ export default function Teams() {
                 key={member.id}
                 className="cyber-card group text-center hover:shadow-lg hover:shadow-purple-500/30 transition-all p-4"
               >
-                {/* Avatar */}
-                <div className="w-16 h-16 mx-auto mb-3 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white font-bold text-lg group-hover:shadow-lg group-hover:shadow-purple-500/50 transition-all">
-                  {member.name.split(" ").map((n) => n[0]).join("")}
-                </div>
+                {/* Avatar or Image */}
+                {member.image ? (
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="w-16 h-16 mx-auto mb-3 rounded-full object-cover border-2 border-blue-500/30 group-hover:shadow-lg group-hover:shadow-purple-500/50 transition-all"
+                  />
+                ) : (
+                  <div className="w-16 h-16 mx-auto mb-3 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white font-bold text-lg group-hover:shadow-lg group-hover:shadow-purple-500/50 transition-all">
+                    {member.name.split(" ").map((n) => n[0]).join("")}
+                  </div>
+                )}
 
                 {/* Name and Role */}
                 <h3 className="font-semibold mb-1 group-hover:text-blue-300 transition-colors text-sm">

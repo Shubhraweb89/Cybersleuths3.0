@@ -19,9 +19,12 @@ export default function Navigation() {
       <div className="container flex items-center justify-between h-16">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
-          <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center group-hover:shadow-lg group-hover:shadow-purple-500/50 transition-all">
-            <span className="text-white font-bold text-lg">CS</span>
-          </div>
+          {/* Club Logo Image */}
+          <img
+            src="/images/logo1.jpg" // <-- Replace with your actual logo path
+            alt="Club Logo"
+            className="w-10 h-10 rounded-lg object-cover border border-blue-500/30 shadow-sm"
+          />
           <span className="font-bold text-xl hidden sm:inline neon-text">CyberSleuths</span>
         </Link>
 

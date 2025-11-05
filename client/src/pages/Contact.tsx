@@ -96,7 +96,7 @@ export default function Contact() {
                 href="mailto:cybersleuths@college.edu"
                 className="text-blue-300 hover:text-blue-200 transition-colors"
               >
-                cybersleuths@college.edu
+                info.cyberslueths@bcrec.ac.in
               </a>
             </div>
 
@@ -107,7 +107,7 @@ export default function Contact() {
                 </div>
               </div>
               <h3 className="text-xl font-bold mb-2">Location</h3>
-              <p className="text-foreground/70">Tech Lab, Building A<br />Main Campus</p>
+              <p className="text-foreground/70">CSE LAB 6, 2nd Floor<br />Main Building</p>
             </div>
 
             <div className="cyber-card text-center">
@@ -117,7 +117,7 @@ export default function Contact() {
                 </div>
               </div>
               <h3 className="text-xl font-bold mb-2">Phone</h3>
-              <p className="text-foreground/70">+1 (555) 123-4567</p>
+              <p className="text-foreground/70">+91 99999 99999</p>
             </div>
           </div>
 
