@@ -8,95 +8,385 @@ interface TeamMember {
   github?: string;
   linkedin?: string;
   email?: string;
-  image?: string; // Add image property
+  image?: string;
 }
 
-// Add image URLs for each member (replace with your actual image paths)
 const coreTeam: TeamMember[] = [
   {
     id: 1,
     name: "Rakesh Raushan",
     role: "Club President",
-    bio: "Cybersecurity enthusiast with expertise in penetration testing",
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
+    // bio: "Cybersecurity enthusiast with expertise in penetration testing",
+    github: "https://github.com/Rakesh9608",
+    linkedin: "https://www.linkedin.com/in/rakeshraushan403",
     email: "rakesh@college.edu",
-    image: "/images/Rakesh.jpg", // Example image path
+    image: "./images/Rakesh.jpg",
+  },
+  {
+    id: 2,
+    name: "Vicky Raj",
+    role: "Vice-President",
+    github: "https://github.com/catalyst2004",
+    linkedin: "http://www.linkedin.com/in/vicky-raj-83982b294",
+    email: "vicky@college.edu",
+    image: "./images/vicky.jpg",
+  },
+  {
+    id: 3,
+    name: "Kaushal Kumar",
+    role: "Treasurer",
+    github: "",
+    linkedin: "",
+    email: "kaushal@college.edu",
+    image: "./images/prince.jpg",
+  },
+  {
+    id: 4,
+    name: "Rohit Kumar",
+    role: "Joint-Treasurer",
+    github: "",
+    linkedin:
+      "https://www.linkedin.com/in/rohit-kumar-6a7366386?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    email: "rohit@college.edu",
+    image: "./images/rohit.jpg",
+  },
+  {
+    id: 5,
+    name: "Piyush Raj Agarwal",
+    role: "Secretary",
+    github: "http://github.com/piyushagarwal777",
+    linkedin:
+      "https://www.linkedin.com/in/piyush-agarwal-681121255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    email: "piyush@college.edu",
+    image: "./images/Piyush.jpg",
+  },
+  {
+    id: 6,
+    name: "Shubhranil Kundu",
+    role: "Web Design & Mgmt Lead",
+    github: "https://github.com/Shubhraweb89",
+    linkedin: "https://www.linkedin.com/in/shubhranil-kundu-31baaa293/",
+    email: "shubhranil@college.edu",
+    image: "./images/Shubhranil.jpg",
+  },
+  {
+    id: 7,
+    name: "Shaumya Raj",
+    role: "PR Management Lead",
+    github: "",
+    linkedin: "",
+    email: "shaumya@college.edu",
+    image: "./images/Shaumya.png",
+  },
+  {
+    id: 8,
+    name: "Ankit Kar",
+    role: "Editorial & Photography Lead",
+    github: "https://github.com/Ankit018-kar",
+    linkedin: "https://www.linkedin.com/in/ankit-kar-653771247/",
+    email: "ankit@college.edu",
+    image: "./images/ankit.jpg",
+  },
+  {
+    id: 9,
+    name: "Aritra Samui",
+    role: "Event Management Lead",
+    github: "",
+    linkedin: "",
+    email: "aritra@college.edu",
+    image: "./images/aritra.jpg",
+  },
+];
+
+const websiteContentTeam: TeamMember[] = [
+  {
+    id: 1,
+    name: "Ayush Bhardwaj",
+    role: "Website Design",
+    github: "https://github.com/bhardwajayush8210",
+    linkedin: "https://www.linkedin.com/in/ayush-raj-4a14b1244",
+    email: "ayush.b@college.edu",
+    image: "./images/AyushBharat.jpg",
   },
   {
     id: 2,
     name: "Ankit Bajpeyee",
-    role: "Vice President",
-    bio: "Network security specialist and CTF competition organizer",
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
-    email: "sarah@college.edu",
-    image: "/images/sarah.jpg",
+    role: "Website Design",
+    github: "",
+    linkedin: "https://www.linkedin.com/in/ankit-bajpeyee",
+    email: "ankit.b@college.edu",
+    image: "./images/AnkitBaj.jpg",
   },
+
   {
     id: 3,
-    name: "susu ",
-    role: "Technical Lead",
-    bio: "Malware analysis and reverse engineering expert",
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
-    email: "marcus@college.edu",
+    name: "Abhishek Kumar",
+    role: "Content Design",
+    github: "",
+    linkedin:
+      "https://www.linkedin.com/in/abhishek-kumar-896198323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    email: "abhishek.k@college.edu",
+    image: "./images/Abhishekkr.jpg",
   },
   {
     id: 4,
-    name: "Emma Rodriguez",
-    role: "Events Coordinator",
-    bio: "Organizes workshops and community engagement activities",
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
-    email: "emma@college.edu",
+    name: "Simran Kumari",
+    role: "Content Design",
+    github: "https://github.com/simrankumari20",
+    linkedin:
+      "https://www.linkedin.com/in/simran-kumari-771b342aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    email: "simran@college.edu",
+    image: "./images/Simran.jpg",
+  },
+   
+  
+];
+
+const gdTeam: TeamMember[] = [
+  {
+    id: 1,
+    name: "Abhishek Raj",
+    role: "Graphic Designer",
+    github: "",
+    linkedin:
+      "https://www.linkedin.com/in/abhishek-kumar-896198323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    email: "abhishek.r@college.edu",
+    image: "./images/Abhishekraj.jpg",
+  },
+  {
+    id: 2,
+    name: "Aditya Kumar",
+    role: "Graphic Designer",
+    github: "https://github.com/AdityawithA",
+    linkedin: "https://www.linkedin.com/in/aditya-kumar-892099293",
+    email: "aditya@college.edu",
+    image: "./images/aditya.jpg",
   },
 ];
 
-// Add images for active members as well
-const members: TeamMember[] = [
+const otherTeams: TeamMember[] = [
+  {
+    id: 1,
+    name: "Diksha Mishra",
+    role: "Event-Coordinator",
+    github: "https://github.com/Diksha-2005",
+    linkedin:
+      "https://www.linkedin.com/in/diksha-mishra-24b375289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    email: "diksha@college.edu",
+    image: "./images/Diksha.jpg",
+  },
+  {
+    id: 2,
+    name: "Satyam Shresth",
+    role: "PR Management",
+    github: "",
+    linkedin:
+      "https://www.linkedin.com/in/satyam-shresth-499026295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    email: "satyam@college.edu",
+    image: "./images/Satyam.jpg",
+  },
+  {
+    id: 3,
+    name: "Ruchi Kumari",
+    role: "PR Management",
+    github: "",
+    linkedin:
+      "https://www.linkedin.com/in/ruchi-kumari-5b7150306?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    email: "ruchi@college.edu",
+    image: "./images/Ruchi.jpg",
+  },
+  {
+    id: 4,
+    name: "Mausam Jha",
+    role: "PR Management",
+    github: "",
+    linkedin:
+      "https://www.linkedin.com/in/mausam-jha-011a322b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    email: "mausam@college.edu",
+    image: "./images/Mausam.jpg",
+  },
+];
+
+const volunteersTeam: TeamMember[] = [
+  {
+    id: 1,
+    name: "Pratyush Gupta",
+    role: "Volunteer",
+    github: "https://github.com/Pratyush-2006",
+    linkedin:
+      "https://www.linkedin.com/in/pratyush-gupta-31a2742a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    email: "pratyush@college.edu",
+    image: "./images/pratyush.jpg",
+  },
+  {
+    id: 2,
+    name: "Khushi",
+    role: "Volunteer",
+    github: "",
+    linkedin: "http://www.linkedin.com/in/khushi-gupta-0b668731b",
+    email: "khushi@college.edu",
+    image: "/images/khushi.jpg",
+  },
+  {
+    id: 3,
+    name: "Aman Kumar",
+    role: "Volunteer",
+    github: "",
+    linkedin:
+      "https://www.linkedin.com/in/aman-kumar-b16607386?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    email: "aman@college.edu",
+    image: "./images/aman.jpg",
+  },
+  {
+    id: 4,
+    name: "Sumit Singh",
+    role: "Volunteer",
+    github: "",
+    linkedin:
+      "https://www.linkedin.com/in/sumit-singh-004a6332b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    email: "sumit@college.edu",
+    image: "/images/sumit.jpg",
+  },
   {
     id: 5,
-    name: "David Park",
-    role: "Security Researcher",
-    image: "/images/david.jpg",
+    name: "Pallav Kumar Mishra",
+    role: "Volunteer",
+    github: "https://github.com/mishrapallav8-ux",
+    linkedin:
+      "https://www.linkedin.com/in/pallav-mishra-000a6331b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    email: "pallav@college.edu",
+    image: "/images/pallav.jpg",
   },
   {
     id: 6,
-    name: "Lisa Thompson",
-    role: "Web Security Specialist",
+    name: "Smriti Kumari",
+    role: "Volunteer",
+    github: "",
+    linkedin:
+      "https://www.linkedin.com/in/smriti-kumari-a62200333?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    email: "smriti@college.edu",
+    image: "/images/smriti.jpg",
   },
   {
     id: 7,
-    name: "James Wilson",
-    role: "Network Administrator",
+    name: "Piyush Raj",
+    role: "Volunteer",
+    github: "",
+    linkedin:
+      "https://www.linkedin.com/in/piyush-raj-63a848303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    email: "piyush.v@college.edu",
+    image: "/images/piyush2.jpg",
   },
   {
     id: 8,
-    name: "Priya Patel",
-    role: "Cryptography Expert",
+    name: "Ayush Raj",
+    role: "Volunteer",
+    github: "https://github.com/Ayush49305",
+    linkedin:
+      "https://www.linkedin.com/in/ayush-raj-882070317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    email: "ayush.r@college.edu",
+    image: "/images/ayush.jpg",
   },
   {
     id: 9,
-    name: "Michael Brown",
-    role: "Forensics Analyst",
-  },
-  {
-    id: 10,
-    name: "Jessica Lee",
-    role: "Cloud Security Specialist",
-  },
-  {
-    id: 11,
-    name: "Ryan Martinez",
-    role: "IoT Security Researcher",
-  },
-  {
-    id: 12,
-    name: "Sophia Anderson",
-    role: "Incident Response Specialist",
+    name: "Aditya Vardhan",
+    role: "Volunteer",
+    github: "",
+    linkedin: "",
+    email: "aditya.v@college.edu",
+    image: "./images/adityavar.jpg",
   },
 ];
+
+// Reusable Component for Team Member Card
+interface TeamCardProps {
+  member: TeamMember;
+  isLarge?: boolean;
+}
+
+function TeamMemberCard({ member, isLarge = false }: TeamCardProps) {
+  return (
+    <div
+      className={`cyber-card group text-center hover:shadow-lg hover:shadow-purple-500/30 transition-all ${!isLarge ? "p-4" : ""}`}
+    >
+      {/* Avatar or Image */}
+      {member.image ? (
+        <img
+          src={member.image || "/placeholder.svg"}
+          alt={member.name}
+          className={`mx-auto mb-4 rounded-full object-cover border-4 border-blue-500/30 group-hover:shadow-lg group-hover:shadow-purple-500/50 transition-all ${
+            isLarge ? "w-24 h-24" : "w-16 h-16 mb-3"
+          }`}
+        />
+      ) : (
+        <div
+          className={`mx-auto mb-4 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white font-bold group-hover:shadow-lg group-hover:shadow-purple-500/50 transition-all ${
+            isLarge ? "w-24 h-24 text-2xl" : "w-16 h-16 text-lg mb-3"
+          }`}
+        >
+          {member.name
+            .split(" ")
+            .map(n => n[0])
+            .join("")}
+        </div>
+      )}
+
+      {/* Name and Role */}
+      <h3
+        className={`font-bold mb-2 group-hover:text-blue-300 transition-colors ${isLarge ? "text-xl" : "text-sm"}`}
+      >
+        {member.name}
+      </h3>
+      <p
+        className={`text-blue-300 font-semibold ${isLarge ? "text-sm mb-3" : "text-xs"}`}
+      >
+        {member.role}
+      </p>
+
+      {/* Bio */}
+      {member.bio && isLarge && (
+        <p className="text-foreground/70 text-sm mb-4">{member.bio}</p>
+      )}
+
+      {/* Social Links */}
+      <div
+        className={`flex gap-3 justify-center ${isLarge ? "pt-4 border-t border-blue-500/10" : "pt-2"}`}
+      >
+        {member.github && (
+          <a
+            href={member.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 rounded-lg bg-blue-500/10 hover:bg-blue-500/20 text-blue-300 hover:text-blue-200 transition-all"
+            title="GitHub"
+          >
+            <Github size={18} />
+          </a>
+        )}
+        {member.linkedin && (
+          <a
+            href={member.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 rounded-lg bg-blue-500/10 hover:bg-blue-500/20 text-blue-300 hover:text-blue-200 transition-all"
+            title="LinkedIn"
+          >
+            <Linkedin size={18} />
+          </a>
+        )}
+        {member.email && (
+          <a
+            href={`mailto:${member.email}`}
+            className="p-2 rounded-lg bg-blue-500/10 hover:bg-blue-500/20 text-blue-300 hover:text-blue-200 transition-all"
+            title="Email"
+          >
+            <Mail size={18} />
+          </a>
+        )}
+      </div>
+    </div>
+  );
+}
 
 export default function Teams() {
   return (
@@ -114,156 +404,64 @@ export default function Teams() {
       {/* Core Team Section */}
       <section className="py-16">
         <div className="container">
-          <h2 className="text-4xl font-bold mb-12">Core Team</h2>
+          <h2 className="text-4xl font-bold mb-12 text-center">Core Team</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {coreTeam.map((member) => (
-              <div
-                key={member.id}
-                className="cyber-card group text-center hover:shadow-lg hover:shadow-purple-500/30 transition-all"
-              >
-                {/* Avatar or Image */}
-                {member.image ? (
-                  <img
-                    src={member.image}
-                    alt={member.name}
-                    className="w-24 h-24 mx-auto mb-4 rounded-full object-cover border-4 border-blue-500/30 group-hover:shadow-lg group-hover:shadow-purple-500/50 transition-all"
-                  />
-                ) : (
-                  <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white font-bold text-2xl group-hover:shadow-lg group-hover:shadow-purple-500/50 transition-all">
-                    {member.name.split(" ").map((n) => n[0]).join("")}
-                  </div>
-                )}
-
-                {/* Name and Role */}
-                <h3 className="text-xl font-bold mb-2 group-hover:text-blue-300 transition-colors">
-                  {member.name}
-                </h3>
-                <p className="text-blue-300 font-semibold text-sm mb-3">{member.role}</p>
-
-                {/* Bio */}
-                {member.bio && (
-                  <p className="text-foreground/70 text-sm mb-4">{member.bio}</p>
-                )}
-
-                {/* Social Links */}
-                <div className="flex gap-3 justify-center pt-4 border-t border-blue-500/10">
-                  {member.github && (
-                    <a
-                      href={member.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="p-2 rounded-lg bg-blue-500/10 hover:bg-blue-500/20 text-blue-300 hover:text-blue-200 transition-all"
-                    >
-                      <Github size={18} />
-                    </a>
-                  )}
-                  {member.linkedin && (
-                    <a
-                      href={member.linkedin}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="p-2 rounded-lg bg-blue-500/10 hover:bg-blue-500/20 text-blue-300 hover:text-blue-200 transition-all"
-                    >
-                      <Linkedin size={18} />
-                    </a>
-                  )}
-                  {member.email && (
-                    <a
-                      href={`mailto:${member.email}`}
-                      className="p-2 rounded-lg bg-blue-500/10 hover:bg-blue-500/20 text-blue-300 hover:text-blue-200 transition-all"
-                    >
-                      <Mail size={18} />
-                    </a>
-                  )}
-                </div>
-              </div>
+            {coreTeam.map(member => (
+              <TeamMemberCard key={member.id} member={member} isLarge={true} />
             ))}
           </div>
         </div>
       </section>
 
-      {/* Active Members Section */}
+      {/* Website & Content Creation Section */}
       <section className="py-16 border-t border-blue-500/20 bg-slate-900/30">
         <div className="container">
-          <h2 className="text-4xl font-bold mb-12">Active Members</h2>
+          <h2 className="text-4xl font-bold mb-12 text-center">
+            Website & Content Creation
+          </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {members.map((member) => (
-              <div
-                key={member.id}
-                className="cyber-card group text-center hover:shadow-lg hover:shadow-purple-500/30 transition-all p-4"
-              >
-                {/* Avatar or Image */}
-                {member.image ? (
-                  <img
-                    src={member.image}
-                    alt={member.name}
-                    className="w-16 h-16 mx-auto mb-3 rounded-full object-cover border-2 border-blue-500/30 group-hover:shadow-lg group-hover:shadow-purple-500/50 transition-all"
-                  />
-                ) : (
-                  <div className="w-16 h-16 mx-auto mb-3 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white font-bold text-lg group-hover:shadow-lg group-hover:shadow-purple-500/50 transition-all">
-                    {member.name.split(" ").map((n) => n[0]).join("")}
-                  </div>
-                )}
-
-                {/* Name and Role */}
-                <h3 className="font-semibold mb-1 group-hover:text-blue-300 transition-colors text-sm">
-                  {member.name}
-                </h3>
-                <p className="text-blue-300 text-xs">{member.role}</p>
-              </div>
+            {websiteContentTeam.map(member => (
+              <TeamMemberCard key={member.id} member={member} />
             ))}
           </div>
         </div>
       </section>
 
-      {/* Join Us Section */}
-      <section className="py-16 border-t border-blue-500/20">
-        <div className="container text-center">
-          <h2 className="text-4xl font-bold mb-6">Join Our Team</h2>
-          <p className="text-lg text-foreground/70 mb-8 max-w-2xl mx-auto">
-            Are you passionate about cybersecurity? We're always looking for dedicated members to join our team. Whether you're interested in leadership roles or want to contribute as an active member, there's a place for you!
-          </p>
-          <a
-            href="https://forms.google.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="cyber-button inline-block"
-          >
-            Apply Now
-          </a>
+      {/* GD Team Section */}
+      <section className="py-16 border-t border-blue-500/20 bg-slate-900/30">
+        <div className="container">
+          <h2 className="text-4xl font-bold mb-12 text-center">Graphic Design Team</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {gdTeam.map(member => (
+              <TeamMemberCard key={member.id} member={member} />
+            ))}
+          </div>
         </div>
       </section>
 
-      {/* Team Values */}
+      {/* Other Teams Section */}
       <section className="py-16 border-t border-blue-500/20 bg-slate-900/30">
         <div className="container">
-          <h2 className="text-4xl font-bold mb-12 text-center">Our Values</h2>
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="cyber-card text-center">
-              <div className="text-4xl mb-4">🔒</div>
-              <h3 className="text-xl font-bold mb-3">Ethical Hacking</h3>
-              <p className="text-foreground/70">
-                We practice and promote ethical hacking principles and responsible disclosure.
-              </p>
-            </div>
-            <div className="cyber-card text-center">
-              <div className="text-4xl mb-4">🤝</div>
-              <h3 className="text-xl font-bold mb-3">Collaboration</h3>
-              <p className="text-foreground/70">
-                We believe in the power of teamwork and knowledge sharing within our community.
-              </p>
-            </div>
-            <div className="cyber-card text-center">
-              <div className="text-4xl mb-4">📚</div>
-              <h3 className="text-xl font-bold mb-3">Continuous Learning</h3>
-              <p className="text-foreground/70">
-                We stay updated with the latest cybersecurity trends and technologies.
-              </p>
-            </div>
+          <h2 className="text-4xl font-bold mb-12 text-center">Event & PR Management</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {otherTeams.map(member => (
+              <TeamMemberCard key={member.id} member={member} />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Volunteers Section */}
+      <section className="py-16 border-t border-blue-500/20 bg-slate-900/30">
+        <div className="container">
+          <h2 className="text-4xl font-bold mb-12 text-center">Volunteers</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {volunteersTeam.map(member => (
+              <TeamMemberCard key={member.id} member={member} />
+            ))}
           </div>
         </div>
       </section>
     </div>
   );
 }
-
