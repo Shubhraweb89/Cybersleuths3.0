@@ -25,7 +25,7 @@ const coreTeam: TeamMember[] = [
   },
   {
     id: 2,
-    name: "Sarah Chen",
+    name: "Ankit Bajpeyee",
     role: "Vice President",
     bio: "Network security specialist and CTF competition organizer",
     github: "https://github.com",
@@ -35,7 +35,7 @@ const coreTeam: TeamMember[] = [
   },
   {
     id: 3,
-    name: "Marcus Williams",
+    name: "susu ",
     role: "Technical Lead",
     bio: "Malware analysis and reverse engineering expert",
     github: "https://github.com",
