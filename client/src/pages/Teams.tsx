@@ -106,7 +106,7 @@ const websiteContentTeam: TeamMember[] = [
     github: "https://github.com/bhardwajayush8210",
     linkedin: "https://www.linkedin.com/in/ayush-raj-4a14b1244",
     email: "bhardwajayush909@gmail.com",
-    image: "./images/ayush12.jpeg",
+    image: "./images/ayush123.jpeg",
   },
   {
     id: 2,
