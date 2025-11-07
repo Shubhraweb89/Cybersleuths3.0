@@ -29,7 +29,7 @@ const coreTeam: TeamMember[] = [
     github: "https://github.com/catalyst2004",
     linkedin: "http://www.linkedin.com/in/vicky-raj-83982b294",
     email: "vicky@college.edu",
-    image: "./images/vicky.jpg",
+    image: "./images/vicky12.jpeg",
   },
   {
     id: 3,
@@ -91,10 +91,10 @@ const coreTeam: TeamMember[] = [
     id: 9,
     name: "Aritra Samui",
     role: "Event Management Lead",
-    github: "",
-    linkedin: "",
+    github: "https://github.com/aritrasamui536",
+    linkedin: "https://www.linkedin.com/in/aritra-samui-0aaaa9330",
     email: "aritra@college.edu",
-    image: "./images/aritra.jpg",
+    image: "./images/aritra12.jpeg",
   },
 ];
 
@@ -105,8 +105,8 @@ const websiteContentTeam: TeamMember[] = [
     role: "Website Design",
     github: "https://github.com/bhardwajayush8210",
     linkedin: "https://www.linkedin.com/in/ayush-raj-4a14b1244",
-    email: "ayush.b@college.edu",
-    image: "./images/AyushBharat.jpg",
+    email: "bhardwajayush909@gmail.com",
+    image: "./images/ayush12.jpeg",
   },
   {
     id: 2,
