@@ -31,7 +31,7 @@ const coreTeam: TeamMember[] = [
     email: "vicky@college.edu",
     image: "./images/vicky12.jpeg",
   },
-  
+  {
     id: 3,
     name: "Kaushal Kumar",
     role: "Treasurer",
