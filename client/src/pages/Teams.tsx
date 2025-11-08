@@ -39,7 +39,7 @@ Secretary",
     github: "https://github.com/Aditya9099",
     linkedin: "https://www.linkedin.com/in/aditya-pratap-singh-0538bb33b",
     email: "vicky@college.edu",
-    image: "./images/vicky12.jpeg",
+    image: "./images/adityapratap.jpeg",
   },
   
   {
