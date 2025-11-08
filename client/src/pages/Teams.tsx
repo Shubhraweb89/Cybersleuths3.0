@@ -62,7 +62,6 @@ Secretary",
   },
   
   {
-  {
     id: 6,
     name: "Shubhranil Kundu",
     role: "Web Design & Mgmt Lead",
