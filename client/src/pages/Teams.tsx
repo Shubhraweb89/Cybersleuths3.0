@@ -33,6 +33,17 @@ const coreTeam: TeamMember[] = [
   },
   {
     id: 3,
+    name: "Aditya Pratap Singh",
+    role: "
+Secretary",
+    github: "https://github.com/Aditya9099",
+    linkedin: "https://www.linkedin.com/in/aditya-pratap-singh-0538bb33b",
+    email: "vicky@college.edu",
+    image: "./images/vicky12.jpeg",
+  },
+  
+  {
+    id: 4,
     name: "Kaushal Kumar",
     role: "Treasurer",
     github: "",
@@ -41,7 +52,7 @@ const coreTeam: TeamMember[] = [
     image: "./images/prince.jpg",
   },
   {
-    id: 4,
+    id: 5,
     name: "Rohit Kumar",
     role: "Joint-Treasurer",
     github: "",
@@ -51,7 +62,7 @@ const coreTeam: TeamMember[] = [
     image: "./images/rohit.jpg",
   },
   {
-    id: 5,
+    id: 6,
     name: "Piyush Raj Agarwal",
     role: "Secretary",
     github: "http://github.com/piyushagarwal777",
@@ -61,7 +72,7 @@ const coreTeam: TeamMember[] = [
     image: "./images/Piyush.jpg",
   },
   {
-    id: 6,
+    id: 7,
     name: "Shubhranil Kundu",
     role: "Web Design & Mgmt Lead",
     github: "https://github.com/Shubhraweb89",
@@ -70,7 +81,7 @@ const coreTeam: TeamMember[] = [
     image: "./images/Shubhranil.jpg",
   },
   {
-    id: 7,
+    id: 8,
     name: "Shaumya Raj",
     role: "PR Management Lead",
     github: "",
@@ -79,7 +90,7 @@ const coreTeam: TeamMember[] = [
     image: "./images/Shaumya.png",
   },
   {
-    id: 8,
+    id: 9,
     name: "Ankit Kar",
     role: "Editorial & Photography Lead",
     github: "https://github.com/Ankit018-kar",
@@ -88,7 +99,7 @@ const coreTeam: TeamMember[] = [
     image: "./images/ankit.jpg",
   },
   {
-    id: 9,
+    id: 10,
     name: "Aritra Samui",
     role: "Event Management Lead",
     github: "https://github.com/aritrasamui536",
