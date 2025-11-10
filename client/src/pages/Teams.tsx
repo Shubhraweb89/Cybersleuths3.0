@@ -29,26 +29,28 @@ const coreTeam: TeamMember[] = [
     github: "https://github.com/catalyst2004",
     linkedin: "http://www.linkedin.com/in/vicky-raj-83982b294",
     email: "vicky@college.edu",
-    image: "./images/vicky12.jpeg",
+    image: "./images/vicky.jpg",
   },
+
   {
     id: 3,
-    name: "Kaushal Kumar",
-    role: "Treasurer",
-    github: "",
-    linkedin: "",
-    email: "kaushal@college.edu",
-    image: "./images/prince.jpg",
-  },
-  {
-    id: 4,
     name: "Rohit Kumar",
-    role: "Joint-Treasurer",
+    role: "Treasurer",
     github: "",
     linkedin:
       "https://www.linkedin.com/in/rohit-kumar-6a7366386?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     email: "rohit@college.edu",
     image: "./images/rohit.jpg",
+  },
+    {
+    id: 4,
+    name: "Satyam Shresth",
+    role: "Joint-Treasurer",
+    github: "",
+    linkedin:
+      "https://www.linkedin.com/in/satyam-shresth-499026295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    email: "satyam@college.edu",
+    image: "./images/Satyam.jpg",
   },
   {
     id: 5,
@@ -59,27 +61,18 @@ const coreTeam: TeamMember[] = [
     email: "vicky@college.edu",
     image: "./images/adityapratap.jpeg",
   },
-  
-  {
+   {
     id: 6,
-    name: "Shubhranil Kundu",
-    role: "Web Design & Mgmt Lead",
-    github: "https://github.com/Shubhraweb89",
-    linkedin: "https://www.linkedin.com/in/shubhranil-kundu-31baaa293/",
-    email: "shubhranil@college.edu",
-    image: "./images/Shubhranil.jpg",
+    name: "Diksha Mishra",
+    role: "Chief Event-Coordinator",
+    github: "https://github.com/Diksha-2005",
+    linkedin:
+      "https://www.linkedin.com/in/diksha-mishra-24b375289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    email: "diksha@college.edu",
+    image: "./images/Diksha.jpg",
   },
   {
     id: 7,
-    name: "Shaumya Raj",
-    role: "PR Management Lead",
-    github: "",
-    linkedin: "",
-    email: "shaumya@college.edu",
-    image: "./images/Shaumya.png",
-  },
-  {
-    id: 8,
     name: "Ankit Kar",
     role: "Editorial & Photography Lead",
     github: "https://github.com/Ankit018-kar",
@@ -88,7 +81,7 @@ const coreTeam: TeamMember[] = [
     image: "./images/ankit.jpg",
   },
   {
-    id: 9,
+    id: 8,
     name: "Aritra Samui",
     role: "Event Management Lead",
     github: "https://github.com/aritrasamui536",
@@ -106,10 +99,19 @@ const websiteContentTeam: TeamMember[] = [
     github: "https://github.com/bhardwajayush8210",
     linkedin: "https://www.linkedin.com/in/ayush-raj-4a14b1244",
     email: "bhardwajayush909@gmail.com",
-    image: "./images/ayush123.jpeg",
+    image: "./images/AyushBharat.jpg",
+  },
+   {
+    id: 2,
+    name: "Shubhranil Kundu",
+    role: "Web Design & Mgmt Lead",
+    github: "https://github.com/Shubhraweb89",
+    linkedin: "https://www.linkedin.com/in/shubhranil-kundu-31baaa293/",
+    email: "shubhranil@college.edu",
+    image: "./images/Shubhranil.jpg",
   },
   {
-    id: 2,
+    id: 3,
     name: "Ankit Bajpeyee",
     role: "Website Design",
     github: "",
@@ -117,27 +119,26 @@ const websiteContentTeam: TeamMember[] = [
     email: "ankit.b@college.edu",
     image: "./images/AnkitBaj.jpg",
   },
-
-  {
-    id: 3,
-    name: "Abhishek Kumar",
-    role: "Content Design",
-    github: "",
-    linkedin:
-      "https://www.linkedin.com/in/abhishek-kumar-896198323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    email: "abhishek.k@college.edu",
-    image: "./images/Abhishekkr.jpg",
-  },
-  {
-    id: 4,
-    name: "Simran Kumari",
-    role: "Content Design",
-    github: "https://github.com/simrankumari20",
-    linkedin:
-      "https://www.linkedin.com/in/simran-kumari-771b342aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    email: "simran@college.edu",
-    image: "./images/Simran.jpg",
-  },
+  // {
+  //   id: 3,
+  //   name: "Abhishek Kumar",
+  //   role: "Content Design",
+  //   github: "",
+  //   linkedin:
+  //     "https://www.linkedin.com/in/abhishek-kumar-896198323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  //   email: "abhishek.k@college.edu",
+  //   image: "./images/Abhishekkr.jpg",
+  // },
+  // {
+  //   id: 4,
+  //   name: "Simran Kumari",
+  //   role: "Content Design",
+  //   github: "https://github.com/simrankumari20",
+  //   linkedin:
+  //     "https://www.linkedin.com/in/simran-kumari-771b342aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  //   email: "simran@college.edu",
+  //   image: "./images/Simran.jpg",
+  // },
    
   
 ];
@@ -146,7 +147,7 @@ const gdTeam: TeamMember[] = [
   {
     id: 1,
     name: "Abhishek Raj",
-    role: "Graphic Designer",
+    role: "Content Design",
     github: "",
     linkedin:
       "https://www.linkedin.com/in/abhishek-kumar-896198323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -156,35 +157,45 @@ const gdTeam: TeamMember[] = [
   {
     id: 2,
     name: "Aditya Kumar",
-    role: "Graphic Designer",
+    role: "Content Design",
     github: "https://github.com/AdityawithA",
     linkedin: "https://www.linkedin.com/in/aditya-kumar-892099293",
     email: "aditya@college.edu",
     image: "./images/aditya.jpg",
   },
+    {
+    id: 3,
+    name: "Simran Kumari",
+    role: "Content Design",
+    github: "https://github.com/simrankumari20",
+    linkedin:
+      "https://www.linkedin.com/in/simran-kumari-771b342aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    email: "simran@college.edu",
+    image: "./images/Simran.jpg",
+  },
 ];
 
 const otherTeams: TeamMember[] = [
-  {
-    id: 1,
-    name: "Diksha Mishra",
-    role: "Event-Coordinator",
-    github: "https://github.com/Diksha-2005",
-    linkedin:
-      "https://www.linkedin.com/in/diksha-mishra-24b375289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    email: "diksha@college.edu",
-    image: "./images/Diksha.jpg",
-  },
-  {
-    id: 2,
-    name: "Satyam Shresth",
-    role: "PR Management",
-    github: "",
-    linkedin:
-      "https://www.linkedin.com/in/satyam-shresth-499026295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    email: "satyam@college.edu",
-    image: "./images/Satyam.jpg",
-  },
+  // {
+  //   id: 1,
+  //   name: "Diksha Mishra",
+  //   role: "Event-Coordinator",
+  //   github: "https://github.com/Diksha-2005",
+  //   linkedin:
+  //     "https://www.linkedin.com/in/diksha-mishra-24b375289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  //   email: "diksha@college.edu",
+  //   image: "./images/Diksha.jpg",
+  // },
+  // {
+  //   id: 2,
+  //   name: "Satyam Shresth",
+  //   role: "PR Management",
+  //   github: "",
+  //   linkedin:
+  //     "https://www.linkedin.com/in/satyam-shresth-499026295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  //   email: "satyam@college.edu",
+  //   image: "./images/Satyam.jpg",
+  // },
   {
     id: 3,
     name: "Ruchi Kumari",
@@ -417,7 +428,7 @@ export default function Teams() {
       <section className="py-16 border-t border-blue-500/20 bg-slate-900/30">
         <div className="container">
           <h2 className="text-4xl font-bold mb-12 text-center">
-            Website & Content Creation
+            Website Design Team
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {websiteContentTeam.map(member => (
@@ -430,7 +441,7 @@ export default function Teams() {
       {/* GD Team Section */}
       <section className="py-16 border-t border-blue-500/20 bg-slate-900/30">
         <div className="container">
-          <h2 className="text-4xl font-bold mb-12 text-center">Graphic Design Team</h2>
+          <h2 className="text-4xl font-bold mb-12 text-center"> Content Design Team</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {gdTeam.map(member => (
               <TeamMemberCard key={member.id} member={member} />
@@ -442,7 +453,7 @@ export default function Teams() {
       {/* Other Teams Section */}
       <section className="py-16 border-t border-blue-500/20 bg-slate-900/30">
         <div className="container">
-          <h2 className="text-4xl font-bold mb-12 text-center">Event & PR Management</h2>
+          <h2 className="text-4xl font-bold mb-12 text-center">PR Management</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {otherTeams.map(member => (
               <TeamMemberCard key={member.id} member={member} />
