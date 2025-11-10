@@ -53,8 +53,7 @@ const coreTeam: TeamMember[] = [
   {
     id: 5,
     name: "Aditya Pratap Singh",
-    role: "
-Secretary",
+    role: "Secretary",
     github: "https://github.com/Aditya9099",
     linkedin: "https://www.linkedin.com/in/aditya-pratap-singh-0538bb33b",
     email: "vicky@college.edu",
